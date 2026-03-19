@@ -16,8 +16,8 @@
       </router-link>
 
       <div class="video-info">
-        <span class="category-badge">Sports</span>
-        <h1 class="video-title">Running</h1>
+        <span class="category-badge">运动康复</span>
+        <h1 class="video-title">运动康复视频</h1>
       </div>
 
       <router-link to="/sport" class="control-btn next">

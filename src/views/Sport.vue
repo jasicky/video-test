@@ -16,8 +16,8 @@
       </router-link>
 
       <div class="video-info">
-        <span class="category-badge">Fitness</span>
-        <h1 class="video-title">Sport</h1>
+        <span class="category-badge">养生</span>
+        <h1 class="video-title">气脉同康操</h1>
       </div>
 
       <router-link to="/" class="control-btn home">

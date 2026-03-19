@@ -17,7 +17,7 @@
 
       <div class="video-info">
         <span class="category-badge">AI Technology</span>
-        <h1 class="video-title">Digital Human</h1>
+        <h1 class="video-title">数字人</h1>
       </div>
 
       <router-link to="/running" class="control-btn next">

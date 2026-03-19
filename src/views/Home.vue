@@ -9,6 +9,7 @@
     </div>
 
     <div class="video-menu">
+      <!-- 左边：数字人 -->
       <router-link to="/digital-human" class="video-link digital-human">
         <div class="link-content">
           <div class="link-icon">
@@ -17,38 +18,43 @@
               <circle cx="12" cy="7" r="4"></circle>
             </svg>
           </div>
-          <h2>Digital Human</h2>
+          <h2>数字人</h2>
           <p>探索数字人类的未来</p>
           <span class="arrow">→</span>
         </div>
       </router-link>
 
+      <!-- 中间：运动康复视频 -->
       <router-link to="/running" class="video-link running">
         <div class="link-content">
           <div class="link-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="5" r="3"></circle>
-              <line x1="12" y1="8" x2="12" y2="14"></line>
-              <path d="M9 14l3 3 3-3"></path>
-              <line x1="12" y1="17" x2="12" y2="20"></line>
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+              <line x1="9" y1="9" x2="9.01" y2="9"></line>
+              <line x1="15" y1="9" x2="15.01" y2="9"></line>
             </svg>
           </div>
-          <h2>Running</h2>
-          <p>感受跑步带来的自由</p>
+          <h2>运动康复视频</h2>
+          <p>科学康复，恢复活力</p>
           <span class="arrow">→</span>
         </div>
       </router-link>
 
+      <!-- 右边：气脉同康操 -->
       <router-link to="/sport" class="video-link sport">
         <div class="link-content">
           <div class="link-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <polygon points="10 8 16 12 10 16 10 8"></polygon>
+              <path d="M18 8A4 4 0 0 0 10 8"></path>
+              <path d="M14 10V6"></path>
+              <path d="M10 14V10"></path>
+              <path d="M6 14a4 4 0 0 0 8 0"></path>
+              <circle cx="12" cy="12" r="2"></circle>
             </svg>
           </div>
-          <h2>Sport</h2>
-          <p>运动的魅力与突破</p>
+          <h2>气脉同康操</h2>
+          <p>调理气脉，健康养生</p>
           <span class="arrow">→</span>
         </div>
       </router-link>
